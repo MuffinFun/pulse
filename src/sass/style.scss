@@ -1,9 +1,101 @@
-
-
 @import "normalize1";
 @import "resets";
+
+@font-face {
+    font-family: MuseoModernoL;
+    src: url(../font/MuseoModerno-Light.ttf);
+}
+
+@font-face {
+    font-family: MuseoModernoR;
+    src: url(../font/MuseoModerno-Regular.ttf);
+}
+
+@font-face {
+    font-family: MuseoModernoB;
+    src: url(../font/MuseoModerno-Bold.ttf);
+}
 
 *   {
     box-sizing: border-box;
 
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.first-section{
+    min-height: 650px;
+    position: relative;
+    &__header-container{
+        width: 70%;
+        margin-top: 21px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+        width: 251px;
+        height: 45px;
+    }
+    &__bg-img{
+        top: 0px;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    &__text{
+        font-family: MuseoModernoR;
+        color: white;
+        
+    }
+}
+
+.hed-text{
+    &__top-text{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    &__bot-text{
+        font-size: 18px;
+        line-height: 29px;
+        text-align: center;
+    }
+    &__number{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: right;
+        margin-bottom: 4px;
+    }
+}
+
+.top-button{
+    text-align: right;
+    &__top-btn{
+        border: none;
+        outline: none;
+        width: 153px;
+        height: 32px;
+        background: #C70101;
+        border-radius: 5px;
+        padding: 6px 8px 7px 5px;
+
+    }
+    &__btn-text{
+        text-align: center;
+        font-family: MuseoModernoL;
+        color: white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    
 }
