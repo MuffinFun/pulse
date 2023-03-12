@@ -1,0 +1,44 @@
+.third-section {
+  min-height: 680px;
+  background-image: url(../img/bg2.png);
+}
+.third-section__container {
+  width: 55%;
+  min-height: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.third-section__inputs {
+  display: flex;
+  flex-direction: column;
+}
+.third-section__text h4 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 8px;
+  line-height: 54px;
+}
+.third-section__text p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.third-section__text p span {
+  font-weight: 700;
+}
+
+.input__area {
+  font-family: MuseoModernoR, sans-serif;
+  padding: 0;
+  width: 303px;
+  height: 54px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 17px;
+}
+.input__area_last {
+  margin-bottom: 23px;
+}/*# sourceMappingURL=third-sec.css.map */

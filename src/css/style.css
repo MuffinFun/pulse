@@ -377,7 +377,7 @@ table {
   box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: MuseoModernoB, sans-serif;
   color: white;
   text-transform: uppercase;
@@ -457,9 +457,12 @@ p {
   height: 50px;
   margin-bottom: 10px;
 }
+.top-button__top-btn_without-margin {
+  margin-bottom: 0;
+}
 .top-button__btn-text {
   text-align: center;
-  font-family: MuseoModernoL;
+  font-family: MuseoModernoL, sans-serif;
   color: white;
   font-style: normal;
   font-weight: 500;
