@@ -4,6 +4,13 @@
 $color-red: #C70101;
 
 @font-face {
+    font-family: MuseoModernoL;
+    src: url(../font/MuseoModerno-Regular.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
     font-family: MuseoModernoR;
     src: url(../font/MuseoModerno-Regular.ttf);
     font-weight: 500;
@@ -22,7 +29,7 @@ $color-red: #C70101;
 
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
     font-family: MuseoModernoB, sans-serif;
     color: white;
     text-transform: uppercase
