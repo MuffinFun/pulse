@@ -366,20 +366,22 @@ table {
 @import url(../css/fourth-sec.css); */
 @font-face {
   font-family: MuseoModernoL;
-  src: url(../font/MuseoModerno-Regular.ttf);
-  font-weight: 300;
+  src: url(../font/MuseoModerno-Light.ttf);
   font-style: normal;
 }
 @font-face {
   font-family: MuseoModernoR;
   src: url(../font/MuseoModerno-Regular.ttf);
-  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: MuseoModernoM;
+  src: url(../font/MuseoModerno-Medium.ttf);
   font-style: normal;
 }
 @font-face {
   font-family: MuseoModernoB;
   src: url(../font/MuseoModerno-Bold.ttf);
-  font-weight: 700;
   font-style: normal;
 }
 * {
