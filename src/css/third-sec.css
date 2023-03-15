@@ -1,6 +1,7 @@
 .third-section {
   min-height: 680px;
   background-image: url(../img/bg2.png);
+  background-repeat: no-repeat;
 }
 .third-section__container {
   width: 55%;
@@ -11,8 +12,10 @@
   justify-content: space-evenly;
 }
 .third-section__inputs {
+  width: 41%;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 .third-section__text h4 {
   font-weight: 700;

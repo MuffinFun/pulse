@@ -361,6 +361,9 @@ table {
   border-spacing: 0;
 }
 
+/* @import url(../css/second-sec.css);
+@import url(../css/third-sec.css);
+@import url(../css/fourth-sec.css); */
 @font-face {
   font-family: MuseoModernoL;
   src: url(../font/MuseoModerno-Regular.ttf);
@@ -383,7 +386,7 @@ table {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   font-family: MuseoModernoB, sans-serif;
   color: white;
   text-transform: uppercase;
@@ -405,6 +408,7 @@ p {
   padding-top: 21px;
   padding-bottom: 72px;
   background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
 }
 .first-section__header-container {
   width: 60%;
