@@ -20,6 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 79px;
 }
 .fourth-section__title-container {
   display: flex;
@@ -251,6 +252,11 @@ ul li:last-child {
   justify-content: space-between;
 }
 
+.reviews-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 .reviews-box__item {
   display: flex;
   justify-content: space-between;
@@ -276,4 +282,5 @@ ul li:last-child {
   font-weight: 500;
   font-size: 14px;
   line-height: 14px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=fourth-sec.css.map */
