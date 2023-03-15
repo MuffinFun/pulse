@@ -39,6 +39,23 @@ $color-Dgrey: #555555;
         align-items: center;
         justify-content: center;
     }
+    &__third-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        &_head{
+            color: $color-black;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 30px;
+        }
+    }
+    &__rev-container{
+        max-width: 915px;
+        min-height: 920px;
+        
+    }
 }
 
 .arrow-left{
@@ -247,3 +264,36 @@ ul{
         justify-content: space-between;
     }
 }
+
+.reviews-box{
+    
+    &__item{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__review-text{
+        color: $color-black;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__rev-img{
+        width: 169px;
+        height: 169px;
+        margin-right: 61px;
+    }
+    &__header{
+        &_top{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &_bot{
+            color: $color-Dgrey;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 14px;
+        }
+    }
+}
+
