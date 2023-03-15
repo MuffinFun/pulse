@@ -5,9 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url(../css/second-sec.css);
-@import url(../css/third-sec.css);
-@import url(../css/fourth-sec.css);
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -364,6 +361,9 @@ table {
   border-spacing: 0;
 }
 
+/* @import url(../css/second-sec.css);
+@import url(../css/third-sec.css);
+@import url(../css/fourth-sec.css); */
 @font-face {
   font-family: MuseoModernoL;
   src: url(../font/MuseoModerno-Regular.ttf);
@@ -408,6 +408,7 @@ p {
   padding-top: 21px;
   padding-bottom: 72px;
   background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
 }
 .first-section__header-container {
   width: 60%;

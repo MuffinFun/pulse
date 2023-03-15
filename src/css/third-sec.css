@@ -1,13 +1,14 @@
 .third-section {
   min-height: 680px;
   background-image: url(../img/bg2.png);
+  background-repeat: no-repeat;
 }
 .third-section__container {
   width: 55%;
   min-height: 680px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
 }
 .third-section__inputs {

@@ -3,9 +3,9 @@
 
 $color-red: #C70101;
 
-@import url(../css/second-sec.css);
+/* @import url(../css/second-sec.css);
 @import url(../css/third-sec.css);
-@import url(../css/fourth-sec.css);
+@import url(../css/fourth-sec.css); */
 
 @font-face {
     font-family: MuseoModernoL;
@@ -55,6 +55,7 @@ p{
     padding-top: 21px;
     padding-bottom: 72px;
     background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
     &__header-container{
         width: 60%;
         display: flex;
