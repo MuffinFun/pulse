@@ -222,25 +222,26 @@
   margin-bottom: 15px;
 }
 
-ul {
-  list-style-type: square;
+.content__list {
+  list-style: square;
   padding-left: 32px;
 }
-ul li {
+.content__list li {
   color: #555555;
   font-family: MuseoModernoL, sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 21px;
   margin-bottom: 4px;
-  margin-left: 5px;
+  margin-left: 9px;
 }
-ul li::marker {
+.content__list li::marker {
+  margin-left: 15px;
   width: 8px;
   height: 8px;
   color: #C70101;
 }
-ul li:last-child {
+.content__list li:last-child {
   margin-bottom: 71px;
 }
 
@@ -277,6 +278,7 @@ ul li:last-child {
   margin-right: 61px;
 }
 .reviews-box__header_top {
+  font-family: MuseoModernoB, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
@@ -303,10 +305,10 @@ ul li:last-child {
   .fourth-section__catalog-container {
     min-height: auto;
   }
-  ul li {
+  .content__list li {
     font-size: 12px;
   }
-  ul li:last-child {
+  .content__list li:last-child {
     margin-bottom: 0px;
   }
   .content__img {
@@ -435,7 +437,7 @@ ul li:last-child {
   .box-content__text {
     font-size: 14px;
   }
-  ul li {
+  .content__list li {
     line-height: 15px;
     margin-bottom: 5px;
   }
@@ -488,6 +490,13 @@ ul li:last-child {
   }
 }
 @media (max-width: 463px) {
+  .content__list {
+    padding-left: 27px;
+  }
+  .content__list li {
+    line-height: 12px;
+    margin-bottom: 5px;
+  }
   .slider-picture__img {
     width: 300px;
     margin-left: 15px;
@@ -573,13 +582,13 @@ ul li:last-child {
     width: 140px;
     height: 200px;
   }
-  ul li {
+  .content__list li {
     font-size: 16px;
     line-height: 23px;
     margin-bottom: 6px;
     margin-left: 5px;
   }
-  ul li:last-child {
+  .content__list li:last-child {
     margin-bottom: 60px;
   }
   .reviews-box__review-text {
@@ -610,8 +619,6 @@ ul li:last-child {
     font-size: 14px;
     transform: skewX(-341deg);
   }
-}
-@media (max-width: 405px) {
   .slider-picture__img {
     width: 200px;
     margin-left: 15px;
@@ -649,11 +656,19 @@ ul li:last-child {
   .content__button {
     width: 120px;
   }
-  ul li {
+  .content__list li {
     margin-bottom: 3px;
     margin-left: 5px;
   }
-  ul li:last-child {
+  .content__list li:last-child {
     margin-bottom: 15px;
+  }
+  .reviews-box__review-text {
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .reviews-box__rev-img {
+    width: 100px;
+    height: 100px;
   }
 }/*# sourceMappingURL=fourth-sec.css.map */

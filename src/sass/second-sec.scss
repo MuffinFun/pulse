@@ -72,11 +72,26 @@ $color-black: black;
 }
 
 @media (max-width: 460px) {
+    .second-section{
+        min-height: 510px;
+        &__title {
+            margin-top: 20px;
+        }
+    }
     .content-box {
-        width: 85%;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
         &__text{
             &_title{
                 font-size: 14px;
+            }
+        }
+        &__item{
+            width: 97%;
+            img{
+                margin-bottom: 0;
             }
         }
     }
@@ -89,11 +104,8 @@ $color-black: black;
         }
     }
     .content-box {
-        width: 85%;
         &__item{
             img{
-                width: 60px;
-                margin-bottom: 25px;
             }
         }
     }
@@ -106,12 +118,6 @@ $color-black: black;
         }
     }
     .content-box {
-        width: 85%;
-        &__item{
-            img{
-                margin-bottom: 20px;
-            }
-        }
         &__text{
             &_low-text{
                 font-size: 12px;
@@ -122,4 +128,5 @@ $color-black: black;
         }
         
     }
+    
 }

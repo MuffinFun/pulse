@@ -522,6 +522,7 @@ p {
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
+  text-transform: uppercase;
 }
 .title__title-tex2 {
   font-weight: 500;
@@ -593,7 +594,7 @@ p {
     margin-bottom: 0px;
   }
   .title__title-tex2 {
-    text-align: left;
+    text-align: center;
   }
   .icons {
     width: 90%;
@@ -613,9 +614,6 @@ p {
   }
   .hed-text__number {
     font-size: 80%;
-  }
-  .top-button__top-btn {
-    width: 126px;
   }
   .top-button__top-btn_big-btn {
     width: 300px;
@@ -666,11 +664,21 @@ p {
   .hed-text__number {
     font-size: 14px;
   }
+  .icons__icn {
+    margin-right: 5px;
+  }
   .icons__img {
     width: 30px;
   }
+  .icons__text {
+    font-size: 12px;
+  }
   .top-button__top-btn_big-btn {
+    width: 250px;
     margin-bottom: 0;
+  }
+  .top-button__btn-text_big-text {
+    font-size: 14px;
   }
   .hed-text__bot-text {
     line-height: 10px;
