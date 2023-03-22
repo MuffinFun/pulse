@@ -301,3 +301,20 @@ ul{
     }
 }
 
+@media (max-width: 1137px){
+    .fourth-section{
+        &__second-container{
+            min-height: auto;
+        }
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .slider-picture{
+        &__img{
+            width: 550px;
+        }
+    }
+}
+

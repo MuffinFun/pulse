@@ -12,7 +12,7 @@
         justify-content: space-evenly;
     }
     &__inputs{
-        width: 41%;
+        width: 303px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -47,6 +47,132 @@
         margin-bottom: 17px;
         &_last{
             margin-bottom: 23px;
+        }
+    }
+}
+
+@media (max-width: 955px){
+    .third-section{
+        &__container{
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width: 749px) {
+    .third-section{
+        &__container{
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 657px) {
+    .third-section{
+        &__container{
+            width: 80%;
+        }
+        &__text{
+            h4{
+                font-size: 33px;
+            }
+        }
+    }
+}
+
+@media (max-width: 583px) {
+    .third-section{
+        &__container{
+            align-items: center;
+        }
+        &__text{
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 535px) {
+    .third-section{
+        &__text{
+            h4{
+                font-size: 30px;
+                line-height: 44px;
+            }
+        }
+    }
+}
+
+@media (max-width: 486px) {
+    .third-section{
+        &__text{
+            h4{
+                font-size: 27px;
+                line-height: 40px;
+            }
+        }
+    }
+}
+@media (max-width: 437px) {
+    .third-section{
+        &__text{
+            h4{
+                font-size: 25px;
+                line-height: 38px;
+            }
+        }
+    }
+}
+
+@media (max-width: 404px) {
+    .third-section{
+        &__text{
+            h4{
+                font-size: 23px;
+                line-height: 36px;
+            }
+        }
+    }
+}
+
+@media (max-width: 473px) {
+    .third-section{
+        &__text{
+            h4{
+                font-size: 20px;
+                line-height: 33px;
+            }
+            p{
+                font-size: 17px;
+                line-height: 27px;
+            }
+        }
+    }
+}
+
+@media (max-width: 340px) {
+    .third-section{
+        &__inputs{
+            align-items: center;
+        }
+    }
+    .input{
+        &__area{
+            width: 250px;
+        }
+    }
+}
+
+@media (max-width: 323px) {
+    .third-section{
+        &__text{
+            h4{
+                font-size: 18px;
+                line-height: 31px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 25px;
+            }
         }
     }
 }
