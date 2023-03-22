@@ -41,4 +41,30 @@
 }
 .contact-us__icon:last-child {
   margin-right: 0px;
+}
+
+@media (max-width: 768px) {
+  .contact-us {
+    width: 397px;
+    height: 213px;
+  }
+}
+@media (max-width: 576px) {
+  .contact-us {
+    width: 357px;
+    height: 173px;
+  }
+}
+@media (max-width: 425px) {
+  .contact-us {
+    width: 100%;
+    height: 173px;
+  }
+  .contact-us__text_top {
+    margin-bottom: 25px;
+  }
+  .contact-us__icon {
+    width: 40px;
+    margin-right: 60px;
+  }
 }/*# sourceMappingURL=last-sec.css.map */
