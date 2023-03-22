@@ -175,6 +175,7 @@ p{
         font-weight: 500;
         font-size: 24px;
         line-height: 24px;
+        text-transform: uppercase;
     }
     &__title-tex2{
         font-weight: 500;
@@ -254,7 +255,7 @@ p{
     .title{
         margin-bottom: 0px;
         &__title-tex2{
-            text-align: left;
+            text-align: center;
         }
     }
     .icons{
@@ -284,7 +285,6 @@ p{
     }
     .top-button{
         &__top-btn{
-            width: 126px;
             &_big-btn{
                 width: 300px;
             }
@@ -348,12 +348,29 @@ p{
         }
     }
     .icons{
+        &__icn{
+            margin-right: 5px;
+        }
         &__img{
             width: 30px;
         }
+        &__text{
+            font-size: 12px;
+        }
     }
-    .top-button__top-btn_big-btn{
-        margin-bottom: 0;
+    .top-button{
+        &__top-btn{
+            &_big-btn{
+                width: 250px;
+                margin-bottom: 0;
+
+            }
+        }
+        &__btn-text{
+            &_big-text{
+                font-size: 14px;
+            }
+        }
     }
     .hed-text__bot-text {
         line-height: 10px;

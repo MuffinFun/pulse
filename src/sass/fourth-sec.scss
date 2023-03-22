@@ -233,8 +233,8 @@ $color-Dgrey: #555555;
     }
 }
 
-ul{
-    list-style-type: square;
+.content__list{
+    list-style: square;
     padding-left: 32px;
     li{
         color: $color-Dgrey;
@@ -243,8 +243,9 @@ ul{
         font-size: 14px;
         line-height: 21px;
         margin-bottom: 4px;
-        margin-left: 5px;
+        margin-left: 9px;
         &::marker {
+            margin-left: 15px;
             width: 8px;
             height: 8px;
             color: $color-red;
@@ -291,6 +292,7 @@ ul{
     }
     &__header{
         &_top{
+            font-family: MuseoModernoB, sans-serif;;
             font-weight: 700;
             font-size: 18px;
             line-height: 18px;
@@ -319,7 +321,7 @@ ul{
             min-height: auto;
         }
     }
-    ul{
+    .content__list{
         li{
             font-size: 12px;
             &:last-child{
@@ -506,7 +508,7 @@ ul{
             font-size: 14px;
         }
     }
-    ul{
+    .content__list{
         li{
             line-height: 15px;
             margin-bottom: 5px;
@@ -579,6 +581,13 @@ ul{
 }
 
 @media (max-width: 463px) {
+    .content__list{
+        padding-left: 27px;
+        li{
+            line-height: 12px;
+            margin-bottom: 5px;
+        }
+    }
     .slider-picture{
         &__img{
             width: 300px;
@@ -693,7 +702,7 @@ ul{
             height: 200px;
         }
     }
-    ul{
+    .content__list{
         li{
             font-size: 16px;
             line-height: 23px;
@@ -735,9 +744,6 @@ ul{
             transform: skewX(-341deg);
         }
     }
-}
-
-@media (max-width: 405px) {
     .slider-picture{
         &__img{
             width: 200px;
@@ -785,13 +791,23 @@ ul{
             width: 120px;
         }  
     }
-    ul{
+    .content__list{
         li{
             margin-bottom: 3px;
             margin-left: 5px;
             &:last-child{
                 margin-bottom: 15px;
             }
+        }
+    }
+    .reviews-box{
+        &__review-text {
+            font-size: 10px;
+            line-height: 13px;
+        }
+        &__rev-img{
+            width: 100px;
+            height: 100px;
         }
     }
 }
